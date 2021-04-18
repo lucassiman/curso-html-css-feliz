@@ -1,0 +1,20 @@
+.skill-meter {
+    display: inline-flex;
+    margin-bottom: 38px; 
+}
+
+.skill-meter .icon {
+    width: 90px;
+    height: 90px;
+}
+
+.skill-meter .subtitle {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.skill-meter .wrapper {
+    flex-direction: column;
+    margin-left: 25px;
+}
+
