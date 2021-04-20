@@ -1,0 +1,11 @@
+.main-text {
+    display: inline-block;
+    font-family: "Fira Code",sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFF;
+    text-align:justify;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
