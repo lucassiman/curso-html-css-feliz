@@ -10,37 +10,36 @@
     rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/components/page-logo.css">
-    <link rel="stylesheet" href="css/components/page-header.css">
-    <link rel="stylesheet" href="css/components/page-banner.css">
+    <link rel="stylesheet" href="css/components/logo.css">
+    <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="css/components/card-project.css">
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/main-box.css">
     <link rel="stylesheet" href="css/components/main-button.css">
-    <link rel="stylesheet" href="css/components/page-action.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
-    <link rel="stylesheet" href="css/components/project-card.css">
-    <link rel="stylesheet" href="css/components/wrapper-project.css">
-
     
 </head>
 <body>
     
-    <header class="page-header">
-        <h1 class="page-logo">LS</h1>
+    <header class="main-header">
+        <h1 class="logo">LS</h1>
         <nav>
-            <a class="page-action" href="" lang="en">Skills</a>
-            <a class="page-action" href="">Projetos</a>
-            <a class="page-action" href="">Sobre</a>
-            <a class="page-action" href="">Contatos</a>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a class="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contatos</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
 
-    <section class="page-banner">
+    <section class="main-banner">
         <div class="wrapper">
             <div class="main-box">
                 <h1 class="main-title">Lucas Siman</h1>
@@ -54,7 +53,7 @@
         </div>
     </section>
 
-    <section class="main-section -skill">
+    <section class="main-section">
         <h2 class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
@@ -131,20 +130,27 @@
         </div>
     </section>
 
-    <section class="main-section -project">
+    <section class="main-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
-        <div class="wrapper-project">
-            <article class="project-card -firelabs">
-                <img src="img/logo-firedlabs.png" alt="">
-            </article>
-            <article class="project-card -colabcode">
-                <img src="img/logo-collabcode.png" alt="">
-            </article>
-            <article class="project-card -portfolio">
-                <img src="img/portfolio.png" alt="">
-            </article>
+        <div class="wrapper-card">
+            <a href="https://www.firedlabs.com/" target="_blank">
+                <figure class="card-project">
+                    <img src="img/logo-firedlabs.png" alt="Logo da Firelabs">    
+                </figure>
+            </a>
+            <a href="https://collabcode.training" target ="_blank">
+                <figure class="card-project -blue">
+                    <img src="img/logo-collabcode.png" alt="Logo da CollabCode">    
+                </figure>
+            </a>
+            <a href="https://lucassiman.github.io/">
+                <figure class="card-project">
+                    <img src="img/portfolio.png" alt="Logo do Portfolio">    
+                </figure>
+            </a>
         </div>
     </section>
+
 
     
 
