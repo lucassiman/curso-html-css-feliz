@@ -1,0 +1,25 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.main-form .label {
+    color: #FFF;
+    font-weight: 300;
+}
+ .main-form .caixa {
+     border: 5px solid #000;
+     margin-bottom: 20px;
+ }
+
+ .main-form .main-button {
+     display: block;
+     text-align: center;
+ }
+
+ .main-form .main-button:hover {
+    transform: scale(1.01);
+     opacity: 0.8;
+ }

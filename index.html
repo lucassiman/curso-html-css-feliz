@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/wrapper-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     
 </head>
 <body>
@@ -219,6 +220,19 @@
 
     <section class="main-section -bgThird -bdBlack">
         <h2 class="main-title -second">Contatos</h2>
+
+        <form class="main-form" action="">
+            <label class="label" for="name">Nome</label>
+            <input type="text" name="name" class="caixa" required>
+
+            <label class="label" for="email">Email</label>
+            <input type="email" name="email" class="caixa" required>
+
+            <label class="label" for="massage">Mensagem</label>
+            <textarea class="caixa" name="massage" id="massage" cols="30" rows="10"></textarea>
+
+            <input type="submit" name="button" class="main-button" value="Enviar">
+        </form>
     </section>
 
     <footer class="main-footer">
