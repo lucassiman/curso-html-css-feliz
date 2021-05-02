@@ -1,0 +1,10 @@
+.wrapper-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-footer .logo {
+    width: 45px;
+    height: 45px;
+    margin-right:10px;
+}
