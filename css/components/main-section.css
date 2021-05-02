@@ -13,9 +13,15 @@
     background-color: #000;
 }
 
+.main-section.-bgThird {
+    background-color: #3A4042;
+}
+
 .main-section.-bdFirst {
     border-color: #F25A70;
 }
+
+
 
 .main-section.-bgSecond {
     background-color: #7C5E99;
