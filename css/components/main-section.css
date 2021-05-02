@@ -17,6 +17,10 @@
     border-color: #F25A70;
 }
 
-.main-section.-bgPurp {
+.main-section.-bgSecond {
     background-color: #7C5E99;
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
 }
