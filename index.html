@@ -29,7 +29,8 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
-    <link rel="stylesheet" href="css/components/wrapper-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
     <link rel="stylesheet" href="css/components/main-form.css">
     
 </head>
@@ -218,43 +219,31 @@
         </p>
     </section>
 
-    <section class="main-section -bgThird -bdBlack">
-        <h2 class="main-title -second">Contatos</h2>
+    <form class="main-form" action="">
+        <legend class="main-title -second">Contatos</legend>
 
-        <form class="main-form" action="">
-            <label class="label" for="name">Nome</label>
-            <input type="text" name="name" class="caixa" required>
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="name" type="text" required>
 
-            <label class="label" for="email">Email</label>
-            <input type="email" name="email" class="caixa" required>
+        <label class="main-label" for="email">Email</label>
+        <input class="main-input" id="email" type="email" required>
 
-            <label class="label" for="massage">Mensagem</label>
-            <textarea class="caixa" name="massage" id="massage" cols="30" rows="10"></textarea>
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input -textarea" id="message" required></textarea>
 
-            <input type="submit" name="button" class="main-button" value="Enviar">
-        </form>
-    </section>
+        <button class="main-button -full" type="submit">Enviar</button>
+    </form>
 
     <footer class="main-footer">
-        <div class="wrapper-footer">
-            <a href="https://twitter.com/lucas_siman" target="_blank">
-                <figure>
-                    <img class="logo" src="img/logo-twitter.png" alt="Logo do Twitter">
-                </figure>
-            </a>
-
-            <a href="https://linkedin.com/in/lucas-siman" target="_blank">
-                <figure>
-                    <img class="logo" src="img/logo-linkedin.png" alt="Logo do Linked In">
-                </figure>
-            </a>
-            
-            <a href="" target="_blank">
-                <figure>
-                    <img class="logo" src="img/logo-discord.png" alt="Logo do Discord">
-                </figure>
-            </a>
-        </div>
+        <a class="action" href="https://twitter.com/lucas_siman">
+            <img class="icon" src="img/icon-twitter.png" alt="Logo do Twitter em pixel art">
+        </a>
+        <a class="action" href="https://linkedin.com/in/lucas-siman">
+            <img class="icon" src="img/icon-linkedin.png" alt="Logo do you Tube em pixel art">
+        </a>
+        <a class="action" href="">
+            <img class="icon" src="img/icon-discord.png" alt="Logo do Discord em pixel art">
+        </a>
     </footer>
 
     <script src="js/components/main-carousel.js"></script>

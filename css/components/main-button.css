@@ -8,6 +8,7 @@
     font-size: 20px;
     color: #FFF;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button::before {
@@ -18,4 +19,13 @@
 .main-button:hover {
     transform: scale(1.08);
     opacity: 0.8;
+}
+
+.main-button.-full {
+    justify-content: center;
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
